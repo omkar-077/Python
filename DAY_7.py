@@ -73,3 +73,28 @@ def UserInfo(userName,userSkill,userAddress):
 
 UserInfo("Nishant","Python","Pune")
 UserInfo("ABC","React JS","Pune")
+
+
+def add (balance):
+    added = int(input("Enter amount to be added :"))
+    balance+=added
+    print(balance)
+    
+
+def withdraw (balance):
+    withdrawal = int(input("Enter amount to be withdraw :"))
+    balance-=withdrawal
+    print(balance)
+  
+def main ():
+    balance = 50000
+    action = input("Enter :").lower()
+    match action :
+        case 'add':
+            add(balance)
+        case 'withdraw':
+            withdraw(balance)
+         
+
+        
+main()
