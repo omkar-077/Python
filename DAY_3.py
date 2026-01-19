@@ -144,7 +144,7 @@ print(2**3)
 
 
 # ***************************************************************************************
-# Variables- also called identifiers
+# Variables- also called identifiers  memory alocation
 
 # is a container which is used to stored data i.e int , float,boolean,char,
 # string,list(array),dictionary(object),functions
