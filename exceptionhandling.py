@@ -20,12 +20,12 @@ def Demo(a,b):
 Demo(100,200)
 
 # # next
-# def User():
-#     print("hello user")
-# User()
+def User():
+    print("hello user")
+User()
 
 
-# print("Hello Welcome....dear")
+print("Hello Welcome....dear")
 
 
 # *****************************************
