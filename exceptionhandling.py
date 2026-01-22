@@ -1,10 +1,10 @@
 
 # # exception handling
 
-# def Calci(a,b):
-#     return a/b
+def Calci(a,b):
+    return a/b
 
-# print(Calci(5,5))
+print(Calci(5,5))
 
 
 # # res=Calci(50,0)
@@ -13,11 +13,11 @@
 
 
 # # *********************
-# def Demo(a,b):
-#     # print(a+"ABC")
-#     print("hello")
+def Demo(a,b):
+    # print(a+"ABC")
+    print("hello")
 
-# Demo(100,200)
+Demo(100,200)
 
 # # next
 # def User():
