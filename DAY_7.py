@@ -5,6 +5,7 @@ print("hello welcome to function")
 # we can reused functions multiple times by calling
 # defined once and reused multiple times
 # syntax:
+# Block of code that performs specific task...
 
 '''
 
