@@ -1,3 +1,7 @@
+
+
+# ****** FUNCTION EXAMPLE *****
+
 wallet_balance = 50000
 
 def add (balance):

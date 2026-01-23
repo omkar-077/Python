@@ -1,4 +1,7 @@
 
+# ****** TUPLE ******
+
+
 # tuple- is a collection of similar or different type of elements
 # starts indexing from 0
 # syntax - ()
@@ -20,7 +23,7 @@ print(emp)
 
 # 3- for single element
 # emp=("Pratik") # consider string by default
-emp=("Pratik", )
+emp=("Omkar", )
 print(type(emp))
 print(emp)
 
