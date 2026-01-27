@@ -52,7 +52,7 @@ print("Hello Pratik")
 
 # ***************************
 
-
+ 
 try:
     def Calci(a,b):
         return a/b

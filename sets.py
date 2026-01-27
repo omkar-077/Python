@@ -18,7 +18,7 @@ print(sets)
 
 
 # empty tuple
-tuple_1=("abc",)
+tuple_1=("abc",) 
 # tuple_2=()
 print(type(tuple_1))
 print(tuple_1)
