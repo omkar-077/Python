@@ -1,0 +1,66 @@
+
+
+# Polymorphism- one method have difffernt / multiple behavior based on arguments, operators, object, class 
+
+
+# Run Time Polymorphsim ( Method Overiding ) / Polymorphism with Inheritance (Method Overriding)
+
+class Parent:
+    def hello(self):
+        print("hello parent class")
+
+class Child(Parent):
+    def hello(self):
+        print("hello child class")
+        # super().hello()
+
+
+child1=Child()
+child1.hello()
+
+# ***************************
+
+# eg
+
+class Payment:
+
+    def __init__(self,wallet_balance,order_id,status,customer_id):
+        self.wallet_balance=wallet_balance
+        self.order_id=order_id
+        self.status=status
+        self.customer_id=customer_id
+
+
+    def details(self):
+        print("Hello Details Method in Parent class.....")
+        print(f"""Wallet Balance : {self.wallet_balance} , order Id {self.order_id} , 
+               status = {self.status} and customer Id. {self.customer_id} """)
+
+
+class UPI(Payment):
+
+    upi="Phone PAY"
+
+    def details(self):
+
+        print("Hello UPI Details.......")
+        super().details()
+
+    def pay(self):
+        print("Pay Here ........ UPI")
+
+
+class COD(Payment):
+    def pay(self):
+        print("Pay - COD")
+
+
+payment=UPI("100000","#123","OrderPlaced","1234567")
+payment.details()
+
+
+# UPI1=UPI()
+# UPI1.pay()
+
+# COD1=COD()
+# COD1.pay()
